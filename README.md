@@ -2,7 +2,7 @@
 
 > 让 AI 不只“会回答”，而是能在正确口径、正确数据和可验证证据上完成分析任务。
 
-[打开交互 Demo](https://ljj24681379-png.github.io/ai-context-engineering/) · [查看演示数据](data/operating_snapshot.json) · [查看分析规则](rules/analysis-rules.md)
+[查看交互 Demo 源码](app/index.html) · [查看演示数据](data/operating_snapshot.json) · [查看分析规则](rules/analysis-rules.md)
 
 ## 项目判断
 
