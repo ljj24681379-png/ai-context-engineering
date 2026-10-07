@@ -1,0 +1,29 @@
+{
+  "disclaimer": "脱敏模拟数据，仅用于展示分析方法，不代表任何真实业务",
+  "dates": {
+    "current": "2026-09-15",
+    "comparison": "2026-09-14",
+    "freshness": "T+1 validated"
+  },
+  "metric": {
+    "name": "支付销售额",
+    "definition": "支付成功订单的含税成交金额，不含取消订单",
+    "currency": "CNY"
+  },
+  "north_china": {
+    "comparison_sales": 1200000,
+    "current_sales": 960000,
+    "change_rate": -0.2
+  },
+  "cities": [
+    {"city": "北京", "comparison_sales": 520000, "current_sales": 390000, "decline_contribution": 0.5417, "visit_change": -0.18, "conversion_before": 0.046, "conversion_after": 0.042},
+    {"city": "天津", "comparison_sales": 260000, "current_sales": 220000, "decline_contribution": 0.1667},
+    {"city": "河北", "comparison_sales": 420000, "current_sales": 350000, "decline_contribution": 0.2916}
+  ],
+  "checks": {
+    "campaign": "北京示例促销活动于对比日结束",
+    "refund_change": "轻微变化，不足以解释整体下降",
+    "other_regions": "未出现同方向显著异常",
+    "pipeline": "关键表分区完整，未发现延迟"
+  }
+}
